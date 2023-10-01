@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(15, 10, 4);
+    background-color: #229b75;
+    text-align: center;
+}
+body{
+    background-color: #ccf5f5;   
+}
+label{
+    font-size:20px;
+    color: #0b021f;
+    margin-left: 10px;
+}
+.First input, .Last input, .Password input, .Email input, .Confirm input {
+     font-size: 18px;
+     width: 20%;
+     border-radius: 10px;
+     background-color:#0d7373;
+     margin-left: 8px;
+}
+.Gender input{
+    margin-left: 8px;
+}
+
+::placeholder{
+    font-size:16px;
+    color: white;
+}
+.submit{
+    width:80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #08bdf9;
+    color: #0e0e0d;
+    border: 2px solid black;
+    opacity:.7;
+    
+}
+.submit:hover{
+    background-color: #f9080c;
+    width: 100px;
+}
+.Age{
+    margin-left: 8px;
+}
+.Age input{
+    background-color:#0d7373;
+    margin-left: 8px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html signup form with using css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1><br>
+
+    <form action="signup.js" method="post">
+        <div class="First">
+            <label for="First Name">First Name :</label><br>
+            <input type="text" id="First Name" name="First Name" placeholder="First Name" required>
+        </div><br>
+
+        <div class="Last">
+            <label for="Last Name">Last Name :</label><br>
+            <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+        </div><br>
+
+        <div  class="Email">
+            <label for="Email">Email Id :</label><br>
+            <input type="email" id="Email Id" name="Email Id" placeholder="Email Id" required>
+        </div><br>
+
+        <div class="Password">
+            <label for="Password">Password :</label><br>
+            <input type="password" id="Password" name="Password" placeholder="Password" required minlength="8">
+        </div><br>
+
+        <div  class="Confirm">
+            <label for="Confirm Password">Confirm Password :</label><br>
+            <input type="text" id="Confirm Password" name="Confirm Password" placeholder="Confirm Password" required minlength="8">
+        </div><br>
+
+        <div class="Age">
+            <label for="Age">Age :</label><br>
+            <input type="number" id="Age" name="Age" placeholder="Age" required min="0" max="75" title="Age should be positive and below 75">
+        </div><br>
+
+        <div class="Gender">
+            <label for="Gender">Gender :</label><br><br>
+            <input type="radio" id="Gender" name="Gender" placeholder="male" required> Male
+            <input type="radio" id="Gender" name="Gender" placeholder="female" required> Female
+            
+        </div><br>
+
+        <div class="checkbox">
+            <label for="agree">Agree</label>
+            <input type="checkbox" id="agree" name="agree" required>
+            <a href="#">Terms and condition</a>
+        </div><br>
+
+            <input class="submit" type="submit" value="submit" >
+        
+        
+    </form>
+</body>
+</html>

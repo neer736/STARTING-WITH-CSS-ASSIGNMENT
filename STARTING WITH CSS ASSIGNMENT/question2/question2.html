@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM naming convention</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>This is heading</h1>
+      <div class="container__box1">
+        <p>there are some paragraph with diffrent background colours</p>
+      </div>
+      <div class="container__box2">
+        <p>this is para of red background</p>
+      </div>
+      <div class="container__box3">
+        <p>this is para of pink background</p>
+      </div>
+      <div class="container__box4">
+        <p>this is para of green background</p>
+      </div>
+      <div class="container__box5">
+        <p>this is para of saffron background</p>
+        <div class="container__box5--child1">
+          this is para of yellow background
+        </div>
+        <br />
+        <div class="container__box5--child2">
+          this is para of blue background
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <p>BEM stands for Block, Element, Modifier, and it is a naming convention used in web development to create
+        consistent and maintainable CSS classes. Here's a example
+
+        Block: It represents a standalone component or module on a webpage. Blocks are named in lowercase and
+        hyphen-separated words, like .main or .menu.
+
+        Element: Elements are parts of a block and are denoted by two underscores (__).They are also named in lowercase,
+        like (.main__para1)
+
+        Modifier: Modifiers are used to alter the appearance or behavior of a block or element. They are denoted by two
+        hyphens (--) and are added to the block or element the modify, like (.main__para--p1.)
+    </p> -->
+  </body>
+</html>

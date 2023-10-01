@@ -1,0 +1,32 @@
+.container {
+    background: #11dfd4;
+}
+
+.container__box1 {
+    font-size: 20px;
+    background-color: #e7e9f2;
+}
+
+.container__box2{
+    background-color: #f71404ea;
+}
+
+.container__box3 {
+    background-color: #ef66e2;
+}
+
+.container__box4 {
+    background-color: #23fb35;
+}
+
+.container__box5 {
+    background-color: #ed651c;
+}
+
+.container__box5--child1 {
+    background-color: #eff23e;
+}
+
+.container__box5--child2 {
+    background-color: #3d31ec;
+}
